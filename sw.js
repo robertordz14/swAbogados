@@ -6,6 +6,7 @@ self.addEventListener('install', e =>{
             "/index.html", 
             "/css/style.css", 
             '/main.js',
+            '/sw.js',
             "/images/facebook.png",
             "/images/instagram.png",
             "/images/twiter.png",
