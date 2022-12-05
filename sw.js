@@ -19,8 +19,8 @@ self.addEventListener('install', e =>{
             "/videos/v1.mp4",
             "/videos/v2.mp4",
             "/videos/v3.mp4",
-            'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
-          ])
+            'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css',
+        ])
           
       });
   e.waitUntil(cacheProm);
